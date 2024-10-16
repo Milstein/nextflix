@@ -1,4 +1,5 @@
 FROM node:18.0.0-alpine
+LABEL maintainer="Milson Munakami"
 
 RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
